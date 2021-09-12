@@ -1,0 +1,66 @@
+    #chatLog{
+        overflow-y: scroll;
+        overflow-wrap: break-word;
+        height:280px;
+        width:700px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    #chat{
+        height:50px;
+        width:700px;
+        margin: 0 auto;
+        border:0px;
+        background:lightskyblue;
+    }
+
+    #logout{
+        float:right;
+        margin-right: 10px;
+    }
+
+    .container{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXiIR0znfAmSA86oSmmTuOKvGrbjCU9oqd0g&usqp=CAU");
+    }
+
+    .header{
+        border:2px solid #000000;
+        text-align: center;
+        vertical-align: middle;
+        height: 15vh;
+        background-image: url("https://as1.ftcdn.net/v2/jpg/04/53/72/28/500_F_453722800_ScXPwdnA7wvr9wGIBl74qTCL2YZ1HWpK.jpg");
+    }
+
+    footer{
+        border:2px solid #000000;
+        text-align: center;
+        height: 6vh;    
+        background-image: url("https://as1.ftcdn.net/v2/jpg/04/53/72/28/500_F_453722800_ScXPwdnA7wvr9wGIBl74qTCL2YZ1HWpK.jpg");
+    }
+        
+    .main{
+        text-align: center;
+        height: 70vh;
+    }
+
+    
+    form, input,label,button{
+        margin: 5px;
+        padding: 5px;
+    }      
+
+
+    .form-row{
+        display:flex;
+        flex: 1;
+        justify-content: center;
+    }
+
+    label{
+        width:100px;
+    }
+   
+    #error{
+        color: red;
+    }  

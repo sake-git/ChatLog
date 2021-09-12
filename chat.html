@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>  
+    <link rel="stylesheet"  href="/api/user/chat.css"> 
+</head>
+<body>
+    <div class = "container">
+        <div class = "header">
+          <header>
+             <h1>Simply Chat </h1>
+          </header>
+        </div>
+    
+    <div class="main" >
+        <h3>Welcome <span id="name"> <%= name %> </span><span id="email" hidden> <%= email %> </span>
+            <a href="/api/user/login" id="logout">Logout</a> </h3><br>
+        <div id="chatLog" > </div>
+        <textarea id="chat" cols="30" rows="5" placeholder="Start chatting"></textarea> <br>
+        <button onclick="sendMsg()"> Send</button> <button onclick="download()"> Download </button>
+    </div>
+    
+    <div>
+        <footer>
+            Copyright &copy Simply Chat
+        </footer>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/api/user/chat.js"> </script>
+    
+</body>
+</html>
